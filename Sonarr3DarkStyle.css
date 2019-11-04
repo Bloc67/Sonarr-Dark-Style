@@ -7,18 +7,19 @@ a, legend {
     color:  mediumaquamarine !important; 
 }
 .PageHeader\/header\/1IhlM { 
-    background: #101318;
+    background: rgb(16,16,16);
+    background: linear-gradient(0deg, rgba(16,16,16,1) 0%, rgba(46,53,70,1) 100%);
 }
 .SeriesSearchInput\/wrapper\/1v_a3 { 
     font-size: 120%; opacity: 0.5
 }
 .PageSidebarItem\/isActiveItem\/bUesh {
     border: none;
-    background: #20232f;
+    background: #10131f;
 }
 .OverlayScroller\/thumb\/1Lhfi {
     border-radius: 0;
-    background: #20232f;
+    background: #10131f;
 }
 .PageSidebarItem\/item\/2zy7a {
     border: none;
@@ -27,16 +28,16 @@ a, legend {
     padding: 10px 30px;
 }
 .PageSidebarItem\/isActiveLink\/1Hupc {
-    color: slategray;
+    color: #133;
 }
 .PageHeader\/logo\/2y8vm {
     margin-left: 10px;
 }
 body, html {
-    background: #30323f; 
+    background: #303337; 
 }
 .PageToolbar\/toolbar\/1Lo1N {
-    background: #20232f;
+    background: #101713;
     font-size: 16px !important;
     height: 80px;
 }
@@ -96,16 +97,16 @@ PageToolbarButton\/labelContainer\/1XS0i {
     white-space: nowrap;
 }
 .ModalContent\/modalContent\/-txrl {
-    background: #28282f;
+    background: #18181f;
     color: #ddd;
 }
 .ModalFooter\/modalFooter\/1N5Ku,
 .ModalHeader\/modalHeader\/gpcvG {
-    border-color: #333;
+    border-color: #222;
 }
 .EnhancedSelectInput\/options\/3yy65,
 input, textarea, button {
-    background-color: #30333a !important;
+    background-color: #20232a !important;
     border-color: #000 !important;
     color: #ddd !important;
 }
@@ -114,7 +115,7 @@ button {
     color: #ddd !important;
 }
 .EnhancedSelectInputOption\/isSelected\/1mRo2 {
-    background: darkslategrey;
+    background: #133;
 }
 .EnhancedSelectInputOption\/option\/iwTsL:hover {
     background: teal;
@@ -136,7 +137,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .ProgressBar\/container\/14z4A,
 .VirtualTableRow\/row\/2-JS9:hover,
 .TableRow\/row\/33xJE:hover {
-    background-color: #202329;
+    background-color: #101319;
 }
 .ProgressBar\/medium\/VmdqG,
 .ProgressBar\/medium\/VmdqG .ProgressBar\/backText\/1FD8T, .ProgressBar\/medium\/VmdqG .ProgressBar\/frontText\/35PE6 {
@@ -149,7 +150,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     padding-left: 10px;
 }
 .VirtualTableHeader\/header\/3rf0m {
-    background: #20222a;
+    background: #10121a;
 }
 .CalendarEvent\/downloaded\/2vSrJ,
 .CalendarEvent\/missing\/1y6vZ,
@@ -168,7 +169,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     color: #fff !important;
 }
 .DayOfWeek\/dayOfWeek\/1iw4D {
-    background: #20232a;
+    background: #10131a;
     padding: 6px;
 }
 .Label\/default\/2AF1C {
@@ -189,18 +190,18 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesDetails\/overview\/TFGN_ {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: solid 1px #555 !important;
+    border-top: solid 1px #444 !important;
 }
 .SeriesDetails\/details\/gw2sL {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: solid 1px #555 !important;
+    border-bottom: solid 1px #444 !important;
 }
 .SeriesDetailsSeason\/season\/3XIYa {
     background: none;
     padding-top: 10px;
     margin-top: 0;
-    border-top: solid 1px #666 !important;
+    border-top: solid 1px #555 !important;
 }
 .Label\/success\/1pfcC,
 .SeriesDetailsSeason\/collapseButtonContainer\/trs6s {
@@ -221,12 +222,12 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     color: #fff;
 }
 .EnhancedSelectInput\/enhancedSelect\/MfnzY { 
-    border: solid 1px #555 !important; 
+    border: solid 1px #444 !important; 
 }
 .QualityProfiles\/center\/1iiKm,
 .Card\/card\/1iGZk {
     box-shadow: none !important;
-    background: #222 !important;
+    background: #101317 !important;
     color: #eee !important;
 }
 .PageSidebar\/sidebar\/3IOcI {
@@ -245,14 +246,14 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 }
 
 .SelectInput\/select\/1qCdc {
-    background-color: #222;
+    background-color: #101317;
 }
 .Input\/input\/2YWzR,
 .CheckInput\/input\/283j3 {
-    background-color: #333;
+    background-color: #202327;
 }
 .Button\/button\/2PYOE {
-    border: solid 1px #555 !important;
+    border: solid 1px #444 !important;
 }
 .AddNewSeries\/searchIconContainer\/3QAm8,
 .Indexers\/center\/11Csq,
@@ -260,7 +261,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     background-color: transparent;
 }
 a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
-    background-color: #202229 !important;
+    background-color: #101219 !important;
 }
 .ToolbarMenuButton\/menuButton\/zJT-y {
     margin-top: 0;
@@ -271,7 +272,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
     margin-left: -5px;
     margin-top: 8px;
     padding-top: 8px;
-    border-top: solid 1px #666 !important;
+    border-top: solid 1px #555 !important;
 }
 .SeriesIndexOverview\/details\/2mi3u {
     display: block;
@@ -287,4 +288,11 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
 .PageToolbar\/toolbar\/1Lo1N {
     border-bottom: solid 1px #000 !important;
     box-shadow: 0px 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.PageSidebar\/sidebarContainer\/3Hxpq {
+    background: #303438;
+}
+.PageSidebar\/sidebar\/3IOcI {
+    background: #101317;
 }
