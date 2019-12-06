@@ -2,24 +2,36 @@
     border: none !important;
     color: #ccc;
     border-radius: 0 !important;
+    text-shadow: none !important;
+    font-family: "Segoe UI", arial, sans-serif !important;
 }
 a, legend { 
     color:  mediumaquamarine !important; 
 }
+.PageHeader\/header\/1IhlM,
+.PageSidebarItem\/isActiveParentLink\/2uxKf { 
+    background: #253640;
+}
 .PageHeader\/header\/1IhlM { 
-    background: rgb(16,16,16);
-    background: linear-gradient(0deg, rgba(16,16,16,1) 0%, rgba(46,53,70,1) 100%);
+    background: #152630;
+    background: linear-gradient(to right, #152630 0%,#152630 49%,#152630 49%,#000 100%);
+    border-bottom: solid 1px darkslategrey !important;
+}
+.PageContent\/content\/38ErY
+ { 
+    background: #152630;
+    background: linear-gradient(to bottom, #111 0%,#152630 69%,#152630 69%,#051620 100%);
 }
 .SeriesSearchInput\/wrapper\/1v_a3 { 
-    font-size: 120%; opacity: 0.5
+    font-size: 120%; opacity: 0.3
 }
 .PageSidebarItem\/isActiveItem\/bUesh {
     border: none;
-    background: #10131f;
+    background: #000;
 }
 .OverlayScroller\/thumb\/1Lhfi {
     border-radius: 0;
-    background: #10131f;
+    background: #242625;
 }
 .PageSidebarItem\/item\/2zy7a {
     border: none;
@@ -28,18 +40,22 @@ a, legend {
     padding: 10px 30px;
 }
 .PageSidebarItem\/isActiveLink\/1Hupc {
-    color: #133;
+    box-shadow: 0 5px 10px 0 #0004;
+    color: lightgreen !important;
+}
+.PageSidebarItem\/isActiveLink\/1Hupc .PageSidebarItem\/noIcon\/28MC8 {
+    color: lightgreen !important;
 }
 .PageHeader\/logo\/2y8vm {
     margin-left: 10px;
 }
 body, html {
-    background: #303337; 
+    background: #232825; 
 }
 .PageToolbar\/toolbar\/1Lo1N {
-    background: #101713;
+    background: #242625;
     font-size: 16px !important;
-    height: 80px;
+    height: 2.66rem;
 }
 PageToolbarButton\/labelContainer\/1XS0i {
     line-height: 18px;
@@ -75,9 +91,22 @@ PageToolbarButton\/labelContainer\/1XS0i {
     width: auto;
 }
 .PageToolbarSection\/section\/2viCM {
-    display: grid;
-    grid-gap: 12px;
-    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    display: flex;
+}
+.FilterMenu\/filterMenu\/3Tuqp Menu\/menu\/3XXIf {
+    padding: 0 !important;
+    margin: 0;
+}
+.FilterMenu\/filterMenu\/3Tuqp Menu\/menu\/3XXIf svg {
+    height: 1rem;
+}
+.ToolbarMenuButton\/menuButton\/zJT-y,.ToolbarMenuButton\/menuButton\/zJT-y div
+, .ToolbarMenuButton\/menuButton\/zJT-y * { 
+    padding: 0;
+}
+.ToolbarMenuButton\/menuButton\/zJT-y svg  { 
+    height: 1rem !important;
+    margin: 0;
 }
 .PageToolbarSection\/sectionContainer\/5SSN6 {
     flex: 1 1;
@@ -97,16 +126,16 @@ PageToolbarButton\/labelContainer\/1XS0i {
     white-space: nowrap;
 }
 .ModalContent\/modalContent\/-txrl {
-    background: #18181f;
+    background: #242625;
     color: #ddd;
 }
 .ModalFooter\/modalFooter\/1N5Ku,
 .ModalHeader\/modalHeader\/gpcvG {
-    border-color: #222;
+    border-color: #333;
 }
 .EnhancedSelectInput\/options\/3yy65,
 input, textarea, button {
-    background-color: #20232a !important;
+    background-color: #343635 !important;
     border-color: #000 !important;
     color: #ddd !important;
 }
@@ -115,7 +144,7 @@ button {
     color: #ddd !important;
 }
 .EnhancedSelectInputOption\/isSelected\/1mRo2 {
-    background: #133;
+    background: darkslategrey;
 }
 .EnhancedSelectInputOption\/option\/iwTsL:hover {
     background: teal;
@@ -137,7 +166,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .ProgressBar\/container\/14z4A,
 .VirtualTableRow\/row\/2-JS9:hover,
 .TableRow\/row\/33xJE:hover {
-    background-color: #101319;
+    background-color: #242625;
 }
 .ProgressBar\/medium\/VmdqG,
 .ProgressBar\/medium\/VmdqG .ProgressBar\/backText\/1FD8T, .ProgressBar\/medium\/VmdqG .ProgressBar\/frontText\/35PE6 {
@@ -150,7 +179,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     padding-left: 10px;
 }
 .VirtualTableHeader\/header\/3rf0m {
-    background: #10121a;
+    background: #242625;
 }
 .CalendarEvent\/downloaded\/2vSrJ,
 .CalendarEvent\/missing\/1y6vZ,
@@ -169,7 +198,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     color: #fff !important;
 }
 .DayOfWeek\/dayOfWeek\/1iw4D {
-    background: #10131a;
+    background: #000;
     padding: 6px;
 }
 .Label\/default\/2AF1C {
@@ -190,18 +219,18 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesDetails\/overview\/TFGN_ {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: solid 1px #444 !important;
+    border-top: solid 1px #555 !important;
 }
 .SeriesDetails\/details\/gw2sL {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: solid 1px #444 !important;
+    border-bottom: solid 1px #555 !important;
 }
 .SeriesDetailsSeason\/season\/3XIYa {
     background: none;
     padding-top: 10px;
     margin-top: 0;
-    border-top: solid 1px #555 !important;
+    border-top: solid 1px #666 !important;
 }
 .Label\/success\/1pfcC,
 .SeriesDetailsSeason\/collapseButtonContainer\/trs6s {
@@ -222,12 +251,12 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     color: #fff;
 }
 .EnhancedSelectInput\/enhancedSelect\/MfnzY { 
-    border: solid 1px #444 !important; 
+    border: solid 1px #555 !important; 
 }
 .QualityProfiles\/center\/1iiKm,
 .Card\/card\/1iGZk {
     box-shadow: none !important;
-    background: #101317 !important;
+    background: #242 !important;
     color: #eee !important;
 }
 .PageSidebar\/sidebar\/3IOcI {
@@ -246,14 +275,14 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 }
 
 .SelectInput\/select\/1qCdc {
-    background-color: #101317;
+    background-color: #242;
 }
 .Input\/input\/2YWzR,
 .CheckInput\/input\/283j3 {
-    background-color: #202327;
+    background-color: #333;
 }
 .Button\/button\/2PYOE {
-    border: solid 1px #444 !important;
+    border: solid 1px #555 !important;
 }
 .AddNewSeries\/searchIconContainer\/3QAm8,
 .Indexers\/center\/11Csq,
@@ -261,7 +290,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     background-color: transparent;
 }
 a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
-    background-color: #101219 !important;
+    background-color: #242625 !important;
 }
 .ToolbarMenuButton\/menuButton\/zJT-y {
     margin-top: 0;
@@ -272,7 +301,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
     margin-left: -5px;
     margin-top: 8px;
     padding-top: 8px;
-    border-top: solid 1px #555 !important;
+    border-top: solid 1px #666 !important;
 }
 .SeriesIndexOverview\/details\/2mi3u {
     display: block;
@@ -286,13 +315,79 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
     background: black !important;
 }
 .PageToolbar\/toolbar\/1Lo1N {
-    border-bottom: solid 1px #000 !important;
-    box-shadow: 0px 0 10px 0 rgba(0,0,0,0.5);
+    padding: 1rem 2rem;
+    border-left: solid 1px #444 !important;
+    border-bottom: solid 1px #444 !important;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 10px 25px 0 #0008;
+    background: #152630;
+    opacity: 0.5;
 }
-
+.PageToolbar\/toolbar\/1Lo1N:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+.DaysOfWeek\/daysOfWeek\/sW6qm {
+    background: #000;
+}    
 .PageSidebar\/sidebarContainer\/3Hxpq {
-    background: #303438;
+    background: #343635;
 }
 .PageSidebar\/sidebar\/3IOcI {
-    background: #101317;
+    background: #141615;
+}
+.AddNewSeriesSearchResult\/underlay\/11FBP { 
+    background: #144;
+}
+.AddNewSeriesSearchResult\/underlay\/11FBP:hover { 
+    background: #255;
+}
+.Alert\/warning\/aVFPJ {
+    background: #000;
+    color: #fd7;
+}
+.Label\/warning\/1EVt6,
+.Label\/danger\/1NOw3 { 
+    background: #865;
+    border-radius: 15px !important;
+    padding: 5px 10px;
+}
+.Label\/danger\/1NOw3 { 
+    background: teal;
+}
+.PageSidebarItem\/status\/34pTa * {
+    background: #255 !important;
+    color: #fff;
+    border-radius: 3px !important;
+    padding: 3px 6px !important;
+}
+.PageToolbarButton\/toolbarButton\/QiQEt.PageToolbarButton\/isDisabled\/343fJ,
+.PageToolbarButton\/toolbarButton\/QiQEt { 
+    padding: 0 8px;
+}
+.PageToolbarButton\/labelContainer\/1XS0i { 
+    float: right;
+    padding-left: 5px;
+}
+.SeasonPassSeason\/season\/2FWuT {
+    background: #000;
+}
+.SeasonPassSeason\/episodes\/N99zs {
+    background: none;
+    color: orange;
+}
+.SeasonPassSeason\/allEpisodes\/1zGja {
+    color: lightgreen;
+}
+.PageContentFooter\/contentFooter\/3ODMj {
+    background: none;
+    border-top: solid 1px #444 !important;    
+}
+.PageContentFooter\/contentFooter\/3ODMj {
+    border: none !important;
+    box-shadow: 0 -5px 30px 0 #0004;
+    background: #222;
+}
+.SeriesSearchInput\/wrapper\/1v_a3 { 
+    margin-left: 2.3rem;
 }
