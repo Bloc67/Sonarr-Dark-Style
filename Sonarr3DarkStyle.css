@@ -1,204 +1,152 @@
+body {
+	--maincolor: #242625;
+	--maincoloractive: #243640;
+	--topcolor: #152630;
+	--bgcolor: #000;
+	--txtcolor: #ccc;
+	--bodybg: #232825;
+	--txtcolor2: lightgreen;
+	--txtcolor3: teal;
+}
 * {
     border: none !important;
-    color: #ccc;
+    color: var(--txtcolor);
     border-radius: 0 !important;
     text-shadow: none !important;
-    font-family: "Segoe UI", arial, sans-serif !important;
+    font-family: "Calibri", arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.3rem;
 }
 a, legend { 
     color:  mediumaquamarine !important; 
 }
 .PageHeader\/header\/1IhlM,
-.PageSidebarItem\/isActiveParentLink\/2uxKf { 
-    background: #253640;
-}
+.PageSidebarItem\/isActiveParentLink\/2uxKf { background: var(--maincoloractive);}
 .PageHeader\/header\/1IhlM { 
-    background: #152630;
-    background: linear-gradient(to right, #152630 0%,#152630 49%,#152630 49%,#000 100%);
+    background: var(--topcolor);
+    background: linear-gradient(to right, var(--topcolor) 0%,var(--topcolor) 49%,var(--topcolor) 49%,var(--bgcolor) 100%);
     border-bottom: solid 1px darkslategrey !important;
 }
-.PageContent\/content\/38ErY
- { 
-    background: #152630;
-    background: linear-gradient(to bottom, #111 0%,#152630 69%,#152630 69%,#051620 100%);
+.PageContent\/content\/38ErY { 
+    background: var(--topcolor);
+    background: linear-gradient(to bottom, #111 0%,var(--topcolor) 69%,var(--topcolor) 69%,#051620 100%);
 }
-.SeriesSearchInput\/wrapper\/1v_a3 { 
-    font-size: 120%; opacity: 0.3
-}
+.SeriesSearchInput\/wrapper\/1v_a3 { font-size: 120%; opacity: 0.3 }
 .PageSidebarItem\/isActiveItem\/bUesh {
-    border: none;
-    background: #000;
+	border: none;
+    background: var(--bgcolor);
 }
 .OverlayScroller\/thumb\/1Lhfi {
     border-radius: 0;
-    background: #242625;
+    var(--maincolor);
 }
-.PageSidebarItem\/item\/2zy7a {
-    border: none;
-}
-.PageSidebarItem\/link\/TuHn2 {
-    padding: 10px 30px;
-}
+.PageSidebarItem\/item\/2zy7a { border: none; }
+.PageSidebarItem\/link\/TuHn2 { padding: 10px 30px; }
 .PageSidebarItem\/isActiveLink\/1Hupc {
-    box-shadow: 0 5px 10px 0 #0004;
-    color: lightgreen !important;
+    box-shadow: 0 5px 10px 0 var(--bgcolor)4;
+    color: var(--txtcolor2) !important;
 }
-.PageSidebarItem\/isActiveLink\/1Hupc .PageSidebarItem\/noIcon\/28MC8 {
-    color: lightgreen !important;
-}
-.PageHeader\/logo\/2y8vm {
-    margin-left: 10px;
-}
-body, html {
-    background: #232825; 
-}
+.PageSidebarItem\/isActiveLink\/1Hupc .PageSidebarItem\/noIcon\/28MC8 { color: var(--txtcolor2) !important; }
+.PageHeader\/logo\/2y8vm { margin-left: 10px; }
+body, html { background: var(--bodybg);  }
 .PageToolbar\/toolbar\/1Lo1N {
-    background: #242625;
+    var(--maincolor);
     font-size: 16px !important;
     height: 2.66rem;
 }
-PageToolbarButton\/labelContainer\/1XS0i {
-    line-height: 18px;
-}
-.PageToolbarButton\/label\/10YbS { 
-    font-size: 13px;
-}
-.svg-inline--fa { 
-    display: inline-block; 
-}
-.ProgressBar\/primary\/3YDfb {
-    background: teal !important;
-}
-.ProgressBar\/small\/NLk8f { 
-    height: 12px; 
-}
+PageToolbarButton\/labelContainer\/1XS0i { line-height: 18px; }
+.PageToolbarButton\/label\/10YbS { font-size: 13px; }
+.svg-inline--fa { display: inline-block;  }
+.ProgressBar\/primary\/3YDfb {  background: var(--txtcolor3) !important; }
+.ProgressBar\/small\/NLk8f { height: 12px;  }
 .SeriesIndexPoster\/title\/263Pq,
 .SeriesIndexPoster\/nextAiring\/1FZy6 {
     background: none;
     font-size: 14px;
-    color: #ccc;
+    color: var(--txtcolor);
     padding: 0;
 }
-.Label\/outline\/1Lb0m {
-    background: #000 !important;
-}
+.Label\/outline\/1Lb0m { background: var(--bgcolor) !important; }
 .PageJumpBarItem\/jumpBarItem\/3F58I {
     border: none;
-    color: #999;
+    color: var(--txtcolor);
 }
 .ToolbarMenuButton\/menuButton\/zJT-y {
     margin-top: 10px;
     width: auto;
 }
-.PageToolbarSection\/section\/2viCM {
-    display: flex;
-}
+.PageToolbarSection\/section\/2viCM { display: flex; }
 .FilterMenu\/filterMenu\/3Tuqp Menu\/menu\/3XXIf {
     padding: 0 !important;
     margin: 0;
 }
-.FilterMenu\/filterMenu\/3Tuqp Menu\/menu\/3XXIf svg {
-    height: 1rem;
-}
+.FilterMenu\/filterMenu\/3Tuqp Menu\/menu\/3XXIf svg {  height: 1rem; }
 .ToolbarMenuButton\/menuButton\/zJT-y,.ToolbarMenuButton\/menuButton\/zJT-y div
-, .ToolbarMenuButton\/menuButton\/zJT-y * { 
-    padding: 0;
-}
+, .ToolbarMenuButton\/menuButton\/zJT-y * { padding: 0; }
 .ToolbarMenuButton\/menuButton\/zJT-y svg  { 
     height: 1rem !important;
     margin: 0;
 }
-.PageToolbarSection\/sectionContainer\/5SSN6 {
-    flex: 1 1;
-}
-.PageToolbarSeparator\/separator\/2Aqbm {
-    display: none;
-}
+.PageToolbarSection\/sectionContainer\/5SSN6 {  flex: 1 1; }
+.PageToolbarSeparator\/separator\/2Aqbm {  display: none; }
 .PageToolbar\/toolbar\/1Lo1N {
     height: auto;
     padding: 10px;
 }
-.PageToolbarButton\/toolbarButton\/QiQEt {
-    width: auto;
-}
+.PageToolbarButton\/toolbarButton\/QiQEt {  width: auto; }
 .PageToolbarButton\/label\/10YbS {
     line-height: 18px;
     white-space: nowrap;
 }
 .ModalContent\/modalContent\/-txrl {
-    background: #242625;
-    color: #ddd;
+    background: var(--maincolor);
+    color: var(--txtcolor);
 }
 .ModalFooter\/modalFooter\/1N5Ku,
-.ModalHeader\/modalHeader\/gpcvG {
-    border-color: #333;
-}
+.ModalHeader\/modalHeader\/gpcvG {  border-color: #333; }
 .EnhancedSelectInput\/options\/3yy65,
 input, textarea, button {
     background-color: #343635 !important;
-    border-color: #000 !important;
-    color: #ddd !important;
+    border-color: var(--bgcolor) !important;
+    color: var(--txtcolor) !important;
 }
 button {
     background-color: transparent !important;
-    color: #ddd !important;
+    color: var(--txtcolor) !important;
 }
-.EnhancedSelectInputOption\/isSelected\/1mRo2 {
-    background: darkslategrey;
-}
-.EnhancedSelectInputOption\/option\/iwTsL:hover {
-    background: teal;
-}
-.SeriesIndexOverview\/info\/Mc4PI {
-   padding: 0 0 0 2rem;
-}
+.EnhancedSelectInputOption\/isSelected\/1mRo2 {  background: darkslategrey; }
+.EnhancedSelectInputOption\/option\/iwTsL:hover {  background: var(--txtcolor3); }
+.SeriesIndexOverview\/info\/Mc4PI {  padding: 0 0 0 2rem; }
 .SeriesIndexOverview\/content\/3GKJk,
-.SeriesIndexOverview\/content\/3GKJk a {
-    color: #ddd !important;
-}
+.SeriesIndexOverview\/content\/3GKJk a {  color: var(--txtcolor) !important; }
 SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesIndexOverview\/content\/3GKJk:hover,
 SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesIndexOverview\/content\/3GKJk {
     background: none !important;
-    color: #ddd !important;
+    color: var(--txtcolor) !important;
 }
 .ProgressBar\/container\/14z4A,
 .VirtualTableRow\/row\/2-JS9:hover,
-.TableRow\/row\/33xJE:hover {
-    background-color: #242625;
-}
+.TableRow\/row\/33xJE:hover {  background-color: var(--maincolor); }
 .ProgressBar\/medium\/VmdqG,
-.ProgressBar\/medium\/VmdqG .ProgressBar\/backText\/1FD8T, .ProgressBar\/medium\/VmdqG .ProgressBar\/frontText\/35PE6 {
-    height: 22px;
-}
-.SeriesIndexFooter\/legendItem\/1S7Rj {
-    line-height: 20px !important;
-}
-.SeriesIndexFooter\/footer\/14Z0o { 
-    padding-left: 10px;
-}
-.VirtualTableHeader\/header\/3rf0m {
-    background: #242625;
-}
+.ProgressBar\/medium\/VmdqG .ProgressBar\/backText\/1FD8T, 
+.ProgressBar\/medium\/VmdqG .ProgressBar\/frontText\/35PE6 {  height: 22px; }
+.SeriesIndexFooter\/legendItem\/1S7Rj {  line-height: 20px !important; }
+.SeriesIndexFooter\/footer\/14Z0o {   padding-left: 10px; }
+.VirtualTableHeader\/header\/3rf0m {     var(--maincolor); }
 .CalendarEvent\/downloaded\/2vSrJ,
 .CalendarEvent\/missing\/1y6vZ,
 .CalendarEvent\/unmonitored\/Zvc-m {
-    background: teal;
+    background: var(--txtcolor3);
     padding: 10px
 }
-.CalendarEvent\/missing\/1y6vZ {
-    background: chocolate;
-}
-.CalendarEvent\/unmonitored\/Zvc-m {
-    background: black;
-}
+.CalendarEvent\/missing\/1y6vZ {  background: chocolate; }
+.CalendarEvent\/unmonitored\/Zvc-m {  background: black; }
 .CalendarEvent\/seriesTitle\/3sg1o,
-.CalendarEvent\/airTime\/3Wzho{
-    color: #fff !important;
-}
+.CalendarEvent\/airTime\/3Wzho{   color: #fff !important; }
 .DayOfWeek\/dayOfWeek\/1iw4D {
-    background: #000;
+    background: var(--bgcolor);
     padding: 6px;
 }
 .Label\/default\/2AF1C {
@@ -213,9 +161,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesDetails\/tags\/2iq76 {
     font-size: 13px;
 }
-.SeriesDetails\/detailsLabel\/1L4Oi {
-    margin: 0;
-}
+.SeriesDetails\/detailsLabel\/1L4Oi {  margin: 0; }
 .SeriesDetails\/overview\/TFGN_ {
     margin-top: 10px;
     padding-top: 10px;
@@ -233,117 +179,73 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     border-top: solid 1px #666 !important;
 }
 .Label\/success\/1pfcC,
-.SeriesDetailsSeason\/collapseButtonContainer\/trs6s {
-    background-color: teal;
-}
+.SeriesDetailsSeason\/collapseButtonContainer\/trs6s {   background-color: var(--txtcolor3);  }
 .Label\/danger\/1NOw3, 
-.Label\/success\/1pfcC {
-    padding: 10px;
-}
-.Label\/danger\/1NOw3 {
-    background: chocolate ;
-}
+.Label\/success\/1pfcC {  padding: 10px; }
+.Label\/danger\/1NOw3 {  background: chocolate ; }
 .Label\/small\/3DzJB {
     border-radius: 2px !important;
     padding: 8px 10px;
 }
-.Settings\/summary\/3KPAv {
-    color: #fff;
-}
-.EnhancedSelectInput\/enhancedSelect\/MfnzY { 
-    border: solid 1px #555 !important; 
-}
+.Settings\/summary\/3KPAv {  color: #fff; }
+.EnhancedSelectInput\/enhancedSelect\/MfnzY {  border: solid 1px #555 !important;  }
 .QualityProfiles\/center\/1iiKm,
 .Card\/card\/1iGZk {
     box-shadow: none !important;
     background: #242 !important;
     color: #eee !important;
 }
-.PageSidebar\/sidebar\/3IOcI {
-    margin-right: -15px !important;
-}
-.SeriesIndexPoster\/nextAiring\/1FZy6 {
-    color: orange;
-}
-
-.SeriesIndexFooter\/continuing\/84F2g {
-    background-color: teal;
-}
+.PageSidebar\/sidebar\/3IOcI {  margin-right: -15px !important; }
+.SeriesIndexPoster\/nextAiring\/1FZy6 {  color: orange; }
+.SeriesIndexFooter\/continuing\/84F2g {  background-color: var(--txtcolor3); }
 .ProgressBar\/success\/14T8R,
-.SeriesIndexFooter\/ended\/HYrLQ {
-    background-color: darkolivegreen;
-}
-
-.SelectInput\/select\/1qCdc {
-    background-color: #242;
-}
+.SeriesIndexFooter\/ended\/HYrLQ { background-color: darkolivegreen; }
+.SelectInput\/select\/1qCdc { background-color: #242; }
 .Input\/input\/2YWzR,
-.CheckInput\/input\/283j3 {
-    background-color: #333;
-}
-.Button\/button\/2PYOE {
-    border: solid 1px #555 !important;
-}
+.CheckInput\/input\/283j3 { background-color: #333; }
+.Button\/button\/2PYOE {   border: solid 1px #555 !important; }
 .AddNewSeries\/searchIconContainer\/3QAm8,
 .Indexers\/center\/11Csq,
 .DownloadClients\/center\/FvACx {
     background-color: transparent;
 }
-a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
-    background-color: #242625 !important;
-}
-.ToolbarMenuButton\/menuButton\/zJT-y {
-    margin-top: 0;
-}
-.SeriesIndexOverviewInfo\/infos\/aUX5j {
-    display: flex;
+a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--maincolor) !important; }
+.ToolbarMenuButton\/menuButton\/zJT-y {    margin-top: 0; }
+.SeriesIndexOverviewInfo\/infos\/aUX5j {    
+	display: flex;
     flex-direction: row;
     margin-left: -5px;
     margin-top: 8px;
     padding-top: 8px;
     border-top: solid 1px #666 !important;
 }
-.SeriesIndexOverview\/details\/2mi3u {
-    display: block;
-}
+.SeriesIndexOverview\/details\/2mi3u {   display: block; }
 .SeriesIndexOverviewInfoRow\/infoRow\/9PWaT {
     flex: none;
     margin-right: 10px;
 }
 .Tooltip\/tooltip\/3HJXy.Tooltip\/default\/2NTKh,
-.Popover\/title\/326tA {
-    background: black !important;
-}
+.Popover\/title\/326tA {  background: black !important; }
 .PageToolbar\/toolbar\/1Lo1N {
     padding: 1rem 2rem;
     border-left: solid 1px #444 !important;
     border-bottom: solid 1px #444 !important;
     transition: all 0.2s ease-in-out;
-    box-shadow: 0 10px 25px 0 #0008;
-    background: #152630;
+    box-shadow: 0 10px 25px 0 var(--bgcolor)8;
+    background: var(--topcolor);
     opacity: 0.5;
 }
 .PageToolbar\/toolbar\/1Lo1N:hover {
     transition: all 0.2s ease-in-out;
     opacity: 1;
 }
-.DaysOfWeek\/daysOfWeek\/sW6qm {
-    background: #000;
-}    
-.PageSidebar\/sidebarContainer\/3Hxpq {
-    background: #343635;
-}
-.PageSidebar\/sidebar\/3IOcI {
-    background: #141615;
-}
-.AddNewSeriesSearchResult\/underlay\/11FBP { 
-    background: #144;
-}
-.AddNewSeriesSearchResult\/underlay\/11FBP:hover { 
-    background: #255;
-}
+.DaysOfWeek\/daysOfWeek\/sW6qm {  background: var(--bgcolor); }    
+.PageSidebar\/sidebarContainer\/3Hxpq {    background: #343635; }
+.PageSidebar\/sidebar\/3IOcI {     background: #141615; }
+.AddNewSeriesSearchResult\/underlay\/11FBP {     background: #144; }
+.AddNewSeriesSearchResult\/underlay\/11FBP:hover {  background: #255; }
 .Alert\/warning\/aVFPJ {
-    background: #000;
+    background: var(--bgcolor);
     color: #fd7;
 }
 .Label\/warning\/1EVt6,
@@ -352,9 +254,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
     border-radius: 15px !important;
     padding: 5px 10px;
 }
-.Label\/danger\/1NOw3 { 
-    background: teal;
-}
+.Label\/danger\/1NOw3 {  background: var(--txtcolor3); }
 .PageSidebarItem\/status\/34pTa * {
     background: #255 !important;
     color: #fff;
@@ -369,25 +269,19 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {
     float: right;
     padding-left: 5px;
 }
-.SeasonPassSeason\/season\/2FWuT {
-    background: #000;
-}
+.SeasonPassSeason\/season\/2FWuT {  background: var(--bgcolor); }
 .SeasonPassSeason\/episodes\/N99zs {
     background: none;
     color: orange;
 }
-.SeasonPassSeason\/allEpisodes\/1zGja {
-    color: lightgreen;
-}
+.SeasonPassSeason\/allEpisodes\/1zGja { color: var(--txtcolor2); }
 .PageContentFooter\/contentFooter\/3ODMj {
     background: none;
     border-top: solid 1px #444 !important;    
 }
 .PageContentFooter\/contentFooter\/3ODMj {
     border: none !important;
-    box-shadow: 0 -5px 30px 0 #0004;
+    box-shadow: 0 -5px 30px 0 var(--bgcolor)4;
     background: #222;
 }
-.SeriesSearchInput\/wrapper\/1v_a3 { 
-    margin-left: 2.3rem;
-}
+.SeriesSearchInput\/wrapper\/1v_a3 {  margin-left: 2.3rem; }
