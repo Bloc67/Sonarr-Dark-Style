@@ -1,12 +1,14 @@
 body {
-	--maincolor: #343635;
-	--maincoloractive: #344650;
-	--topcolor: #253640;
-	--bgcolor: #111;
+	--maincolor: #444645;
+	--maincoloractive: #445660;
+	--topcolor: #354650;
+	--bgcolor: #222;
 	--txtcolor: #ddd;
-	--bodybg: #333835;
+	--bodybg: #434845;
 	--txtcolor2: lightgreen;
 	--txtcolor3: teal;
+	--bordercolor: #555;
+	--cardbg: #121;
 }
 * {
     border: none !important;
@@ -103,7 +105,7 @@ PageToolbarButton\/labelContainer\/1XS0i { line-height: 18px; }
     color: var(--txtcolor);
 }
 .ModalFooter\/modalFooter\/1N5Ku,
-.ModalHeader\/modalHeader\/gpcvG {  border-color: #333; }
+.ModalHeader\/modalHeader\/gpcvG {  border-color: var(--bordercolor); }
 .EnhancedSelectInput\/options\/3yy65,
 input, textarea, button {
     background-color: #343635 !important;
@@ -165,18 +167,18 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesDetails\/overview\/TFGN_ {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: solid 1px #555 !important;
+    border-top: solid 1px var(--bordercolor) !important;
 }
 .SeriesDetails\/details\/gw2sL {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: solid 1px #555 !important;
+    border-bottom: solid 1px var(--bordercolor) !important;
 }
 .SeriesDetailsSeason\/season\/3XIYa {
     background: none;
     padding-top: 10px;
     margin-top: 0;
-    border-top: solid 1px #666 !important;
+    border-top: solid 1px var(--bordercolor) !important;
 }
 .Label\/success\/1pfcC,
 .SeriesDetailsSeason\/collapseButtonContainer\/trs6s {   background-color: var(--txtcolor3);  }
@@ -188,11 +190,12 @@ SeriesIndexOverview\/container\/4LMzH:hover,
     padding: 8px 10px;
 }
 .Settings\/summary\/3KPAv {  color: #fff; }
-.EnhancedSelectInput\/enhancedSelect\/MfnzY {  border: solid 1px #555 !important;  }
+.EnhancedSelectInput\/enhancedSelect\/MfnzY {  
+    border: solid 1px var(--bordercolor) !important;  }
 .QualityProfiles\/center\/1iiKm,
 .Card\/card\/1iGZk {
     box-shadow: none !important;
-    background: #242 !important;
+    background: var(--cardbg) !important;
     color: #eee !important;
 }
 .PageSidebar\/sidebar\/3IOcI {  margin-right: -15px !important; }
@@ -200,10 +203,10 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .SeriesIndexFooter\/continuing\/84F2g {  background-color: var(--txtcolor3); }
 .ProgressBar\/success\/14T8R,
 .SeriesIndexFooter\/ended\/HYrLQ { background-color: darkolivegreen; }
-.SelectInput\/select\/1qCdc { background-color: #242; }
+.SelectInput\/select\/1qCdc { background-color: var(--cardbg); }
 .Input\/input\/2YWzR,
-.CheckInput\/input\/283j3 { background-color: #333; }
-.Button\/button\/2PYOE {   border: solid 1px #555 !important; }
+.CheckInput\/input\/283j3 { background-color: var(--cardbg); }
+.Button\/button\/2PYOE {   border: solid 1px var(--bordercolor) !important; }
 .AddNewSeries\/searchIconContainer\/3QAm8,
 .Indexers\/center\/11Csq,
 .DownloadClients\/center\/FvACx {
@@ -217,7 +220,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
     margin-left: -5px;
     margin-top: 8px;
     padding-top: 8px;
-    border-top: solid 1px #666 !important;
+    border-top: solid 1px var(--bordercolor) !important;
 }
 .SeriesIndexOverview\/details\/2mi3u {   display: block; }
 .SeriesIndexOverviewInfoRow\/infoRow\/9PWaT {
@@ -228,8 +231,8 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
 .Popover\/title\/326tA {  background: black !important; }
 .PageToolbar\/toolbar\/1Lo1N {
     padding: 1rem 2rem;
-    border-left: solid 1px #444 !important;
-    border-bottom: solid 1px #444 !important;
+    border-left: solid 1px var(--bordercolor) !important;
+    border-bottom: solid 1px var(--bordercolor) !important;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 10px 25px 0 #0008;
     background: var(--topcolor);
@@ -242,8 +245,10 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
 .DaysOfWeek\/daysOfWeek\/sW6qm {  background: var(--bgcolor); }    
 .PageSidebar\/sidebarContainer\/3Hxpq {    background: #343635; }
 .PageSidebar\/sidebar\/3IOcI {     background: #141615; }
-.AddNewSeriesSearchResult\/underlay\/11FBP {     background: #144; }
-.AddNewSeriesSearchResult\/underlay\/11FBP:hover {  background: #255; }
+.AddNewSeriesSearchResult\/underlay\/11FBP {     
+    background: var(--cardbg); }
+.AddNewSeriesSearchResult\/underlay\/11FBP:hover {  
+    background: var(--cardbg); }
 .Alert\/warning\/aVFPJ {
     background: var(--bgcolor);
     color: #fd7;
@@ -256,7 +261,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
 }
 .Label\/danger\/1NOw3 {  background: var(--txtcolor3); }
 .PageSidebarItem\/status\/34pTa * {
-    background: #255 !important;
+    background: var(--cardbg) !important;
     color: #fff;
     border-radius: 3px !important;
     padding: 3px 6px !important;
@@ -277,11 +282,11 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
 .SeasonPassSeason\/allEpisodes\/1zGja { color: var(--txtcolor2); }
 .PageContentFooter\/contentFooter\/3ODMj {
     background: none;
-    border-top: solid 1px #444 !important;    
+    border-top: solid 1px var(--bordercolor) !important;    
 }
 .PageContentFooter\/contentFooter\/3ODMj {
     border: none !important;
     box-shadow: 0 -5px 30px 0 #0004;
-    background: #222;
+    background: var(--bgcolor);
 }
 .SeriesSearchInput\/wrapper\/1v_a3 {  margin-left: 2.3rem; }
