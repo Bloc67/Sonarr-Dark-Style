@@ -1,10 +1,10 @@
 body {
-	--maincolor: #242625;
-	--maincoloractive: #243640;
-	--topcolor: #152630;
-	--bgcolor: #000;
-	--txtcolor: #ccc;
-	--bodybg: #232825;
+	--maincolor: #343635;
+	--maincoloractive: #344650;
+	--topcolor: #253640;
+	--bgcolor: #111;
+	--txtcolor: #ddd;
+	--bodybg: #333835;
 	--txtcolor2: lightgreen;
 	--txtcolor3: teal;
 }
@@ -38,19 +38,19 @@ a, legend {
 }
 .OverlayScroller\/thumb\/1Lhfi {
     border-radius: 0;
-    var(--maincolor);
+    background: var(--maincolor);
 }
 .PageSidebarItem\/item\/2zy7a { border: none; }
 .PageSidebarItem\/link\/TuHn2 { padding: 10px 30px; }
 .PageSidebarItem\/isActiveLink\/1Hupc {
-    box-shadow: 0 5px 10px 0 var(--bgcolor)4;
+    box-shadow: 0 5px 10px 0 #0004;
     color: var(--txtcolor2) !important;
 }
 .PageSidebarItem\/isActiveLink\/1Hupc .PageSidebarItem\/noIcon\/28MC8 { color: var(--txtcolor2) !important; }
 .PageHeader\/logo\/2y8vm { margin-left: 10px; }
 body, html { background: var(--bodybg);  }
 .PageToolbar\/toolbar\/1Lo1N {
-    var(--maincolor);
+    background: var(--maincolor);
     font-size: 16px !important;
     height: 2.66rem;
 }
@@ -134,7 +134,7 @@ SeriesIndexOverview\/container\/4LMzH:hover,
 .ProgressBar\/medium\/VmdqG .ProgressBar\/frontText\/35PE6 {  height: 22px; }
 .SeriesIndexFooter\/legendItem\/1S7Rj {  line-height: 20px !important; }
 .SeriesIndexFooter\/footer\/14Z0o {   padding-left: 10px; }
-.VirtualTableHeader\/header\/3rf0m {     var(--maincolor); }
+.VirtualTableHeader\/header\/3rf0m {  background: var(--maincolor); }
 .CalendarEvent\/downloaded\/2vSrJ,
 .CalendarEvent\/missing\/1y6vZ,
 .CalendarEvent\/unmonitored\/Zvc-m {
@@ -231,7 +231,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
     border-left: solid 1px #444 !important;
     border-bottom: solid 1px #444 !important;
     transition: all 0.2s ease-in-out;
-    box-shadow: 0 10px 25px 0 var(--bgcolor)8;
+    box-shadow: 0 10px 25px 0 #0008;
     background: var(--topcolor);
     opacity: 0.5;
 }
@@ -281,7 +281,7 @@ a.AddNewSeriesSearchResult\/searchResult\/xR8dj {  background-color: var(--mainc
 }
 .PageContentFooter\/contentFooter\/3ODMj {
     border: none !important;
-    box-shadow: 0 -5px 30px 0 var(--bgcolor)4;
+    box-shadow: 0 -5px 30px 0 #0004;
     background: #222;
 }
 .SeriesSearchInput\/wrapper\/1v_a3 {  margin-left: 2.3rem; }
