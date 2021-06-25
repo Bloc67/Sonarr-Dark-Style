@@ -1,3 +1,4 @@
+input {background: none;}
 body {
     background: #101310;
     color: white;
@@ -91,7 +92,10 @@ body {
 .SeriesIndexPoster-nextAiring-2nqSB,
 .EpisodeDetailsModalContent-selectedTab-_FbVg,
 .Input-input-25Gr2,
-.Card-card-1klRK {
+.Card-card-1klRK, 
+.Button-default-342be,
+.AddNewSeries-searchIconContainer-2rJMO {
+    border: none;
     background: #234;
     color: #fff;
 }
@@ -115,7 +119,12 @@ body {
 .Alert-info-12T01, 
 .DownloadClients-center-1gdOg,
 .ImportLists-center-KOIJA,
-.Notifications-center-1KGvf {
+.Notifications-center-1KGvf,
+.AddNewSeriesSearchResult-underlay-2JxgL {
     background: none;
 }
-
+.AddNewSeriesSearchResult-underlay-2JxgL:hover,
+.Button-success-2zRuG {
+    border: none;
+    background: #333d3d;
+}
