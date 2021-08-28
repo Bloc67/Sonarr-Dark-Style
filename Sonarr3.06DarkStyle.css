@@ -1,3 +1,4 @@
+@-moz-document url-prefix("http://localhost:8989/") {
 input {background: none;}
 body {
     background: #101310;
@@ -81,7 +82,8 @@ body {
 .PageContent-content-B3Bmu *{
     border-color: #444;
 }
-.PageContent-content-B3Bmu{
+.PageContent-content-B3Bmu, 
+.EnhancedSelectInput-options-3Gdos{
     color: #bbb;
     background: #181d20;
 }
@@ -106,7 +108,8 @@ body {
 }
 .EpisodeDetailsModalContent-selectedTab-_FbVg, 
 .Input-input-25Gr2,
-.Button-primary-1b2Rk {
+.Button-primary-1b2Rk, .QualityProfileItemGroup-qualityProfileItemGroup-1EgkU,
+.QualityProfileItem-qualityProfileItem-OzlTC {
     border: none;
 }
 
@@ -124,7 +127,21 @@ body {
     background: none;
 }
 .AddNewSeriesSearchResult-underlay-2JxgL:hover,
-.Button-success-2zRuG {
+.Button-success-2zRuG, .QualityProfileItem-qualityProfileItem-OzlTC {
     border: none;
     background: #333d3d;
+}
+.EnhancedSelectInputOption-isSelected-4PJA9, .EnhancedSelectInputOption-isSelected-4PJA9:hover, .QualityProfileItemGroup-qualityProfileItemGroup-1EgkU 
+{
+    color: #fff;
+    background: teal;
+}
+.EnhancedSelectInputOption-option-8Cz3_:hover 
+{
+    color: #000;
+    background: lightblue;
+}
+.EnhancedSelectInput-options-3Gdos {
+    border-color: #000;
+    box-shadow: 0 10px 20px #000;
 }
