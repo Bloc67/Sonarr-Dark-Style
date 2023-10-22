@@ -1,16 +1,17 @@
+@-moz-document url-prefix("http://localhost:8989/") {
 input {background: none;}
 body {
     background: #101310;
     color: white;
 }
-.PageSidebar-sidebarContainer-1k79D, 
+.PageSidebar-sidebarContainer-1k79D,
 .PageHeader-header-JYJAc,
 .PageSidebar-sidebar-20RVF {
     background: #181d20;
     color: #888 !important;
     box-shadow: 0 0 10px #000;
 }
-.PageSidebar-sidebarContainer-1k79D a, 
+.PageSidebar-sidebarContainer-1k79D a,
 .PageHeader-header-JYJAc a,
 .PageSidebar-sidebar-20RVF a,
 .SeriesSearchInput-input-2z4ap,
@@ -30,7 +31,7 @@ body {
 .Label-warning-2g1Vs,
 .Label-danger-38_Y1,
 .Label-default-1WXPR,
-.CheckInput-input-34zw0, 
+.CheckInput-input-34zw0,
 .Label-success-3U7QP,
 .Label-info-3wLFA,
 .Label-label-35sr8 {
@@ -81,7 +82,7 @@ body {
 .PageContent-content-B3Bmu *{
     border-color: #444;
 }
-.PageContent-content-B3Bmu, 
+.PageContent-content-B3Bmu,
 .EnhancedSelectInput-options-3Gdos{
     color: #bbb;
     background: #181d20;
@@ -93,7 +94,7 @@ body {
 .SeriesIndexPoster-nextAiring-2nqSB,
 .EpisodeDetailsModalContent-selectedTab-_FbVg,
 .Input-input-25Gr2,
-.Card-card-1klRK, 
+.Card-card-1klRK,
 .Button-default-342be,
 .AddNewSeries-searchIconContainer-2rJMO,
 .Popover-body-tzQDl,
@@ -108,7 +109,7 @@ body {
     box-shadow: none;
     padding: 1rem;
 }
-.EpisodeDetailsModalContent-selectedTab-_FbVg, 
+.EpisodeDetailsModalContent-selectedTab-_FbVg,
 .Input-input-25Gr2,
 .Button-primary-1b2Rk, .QualityProfileItemGroup-qualityProfileItemGroup-1EgkU,
 .QualityProfileItem-qualityProfileItem-OzlTC {
@@ -121,7 +122,7 @@ body {
 .MenuItem-menuItem-Yot4A,
 .QualityProfiles-center-1Pp4b,
 .Indexers-center-M0oQ6,
-.Alert-info-12T01, 
+.Alert-info-12T01,
 .DownloadClients-center-1gdOg,
 .ImportLists-center-KOIJA,
 .Notifications-center-1KGvf,
@@ -133,15 +134,15 @@ body {
     border: none;
     background: #333d3d;
 }
-.EnhancedSelectInputOption-isSelected-4PJA9, 
-.EnhancedSelectInputOption-isSelected-4PJA9:hover, 
-.QualityProfileItemGroup-qualityProfileItemGroup-1EgkU, 
+.EnhancedSelectInputOption-isSelected-4PJA9,
+.EnhancedSelectInputOption-isSelected-4PJA9:hover,
+.QualityProfileItemGroup-qualityProfileItemGroup-1EgkU,
 .Popover-title-2n2Xp
 {
     color: #fff;
     background: teal;
 }
-.EnhancedSelectInputOption-option-8Cz3_:hover 
+.EnhancedSelectInputOption-option-8Cz3_:hover
 {
     color: #000;
     background: lightblue;
@@ -149,4 +150,5 @@ body {
 .EnhancedSelectInput-options-3Gdos {
     border-color: #000;
     box-shadow: 0 10px 20px #000;
+}
 }
